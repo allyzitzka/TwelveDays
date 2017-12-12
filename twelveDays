@@ -1,0 +1,153 @@
+public class TwelveDays {
+    public static void main(String[] args) {
+        _1();
+        _2();
+        _3();
+        _4();
+        _5();
+        _6();
+        _7();
+        _8();
+        _9();
+        _10();
+        _11();
+        _12();
+    }
+    
+    
+    // this is th twelth day
+    public static void _12() {
+        System.out.println("On the twelth day of Christmas\nmy true love game to me");
+        twelve();
+    }
+    
+    
+    //calls day eleven
+    public static void twelve() {
+        System.out.println("twelve drummers drumming");
+        eleven();
+    }
+    
+    
+    // this is the eleventh day
+    public static void _11() {
+        System.out.println("On the eleventh day of Christmas\nmy true love game to me");
+        eleven();    
+    }
+    
+    // calls day ten
+    public static void eleven() {
+        System.out.println("eleven pipers piping");
+        ten();
+    }
+    
+    
+    //tenth day
+    public static void _10() {
+        System.out.println("On the tenth day of Christmas\nmy true love game to me");
+        ten();
+    }
+    
+    
+    //calls day nine
+    public static void ten() {
+        System.out.println("ten lords a leaping");
+        nine();
+    }
+    
+    
+    //ninth day
+    public static void _9() {
+        System.out.println("On the ninth day of Christmas\nmy true love game to me");
+        nine();
+    }
+    
+    
+    //calls day eight
+    public static void nine() {
+        System.out.println("nine ladies dancing");
+        eight();
+    }
+    
+    
+    
+    public static void _8() {
+        System.out.println("On the eigth day of Christmas\nmy true love game to me");
+        eight();
+    }
+    
+    public static void eight() {
+        System.out.println("eight maids a milking");
+        seven();
+    }
+    
+    public static void _7() {
+        System.out.println("On the seventh day of Christmas\nmy true love game to me");
+        seven();
+    }
+    
+    public static void seven() {
+        System.out.println("seven swans a swimming");
+        six();
+    }
+    
+    public static void _6() {
+        System.out.println("On the sixth day of Christmas\nmy true love game to me");
+        six();
+    }
+    
+    public static void six() {
+        System.out.println("six geese a laying");
+        five();
+    }
+    
+    public static void _5() {
+        System.out.println("On the fifth day of Christmas\nmy true love game to me");
+        five();
+    }
+    
+    public static void five() {
+        System.out.println("FIVE GOLDEN RINGS");
+        four();
+    }
+    
+    public static void _4() {
+        System.out.println("On the fourth day of Christmas\nmy true love game to me");
+        four();
+    }
+    
+    public static void four() {
+        System.out.println("four calling birds");
+        three();
+    }
+    
+    public static void _3() {
+        System.out.println("On the third day of Christmas\nmy true love game to me");
+        three();
+    }
+    
+    public static void three() {
+        System.out.println("three french hens");
+        two();
+    }
+    
+    public static void _2() {
+        System.out.println("On the second day of Christmas\nmy true love game to me");
+        two();
+    }
+    
+    public static void two() {
+        System.out.println("two turtle doves, and");
+        one();
+    }
+    
+    public static void _1() {
+        System.out.println("On the first day of Christmas\nmy true love game to me");
+        one();
+    }
+    
+    public static void one() {
+        System.out.println("a partridge in a pear tree.");
+        System.out.println();
+    }
+}
